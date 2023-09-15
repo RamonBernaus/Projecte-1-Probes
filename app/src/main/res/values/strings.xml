@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Projecte-1</string>
+    <string name="TitolQuest">Quizz</string>
+    <string name="Start">Start\n</string>
+    <string name="MissatgeFinal">S\'ha acabat el temps!\n</string>
+</resources>

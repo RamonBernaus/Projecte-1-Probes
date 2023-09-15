@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#738CB8">
+
+    <LinearLayout
+        android:layout_width="362dp"
+        android:layout_height="685dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="144dp" />
+
+        <TextView
+            android:id="@+id/MissatgeFinal"
+            android:layout_width="match_parent"
+            android:layout_height="103dp"
+            android:text="@string/MissatgeFinal"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="34sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="310dp" />
+
+        <TextView
+            android:id="@+id/Resultat"
+            android:layout_width="match_parent"
+            android:layout_height="82dp"
+            android:text="Resultat:"
+            android:textColor="@color/black"
+            android:textSize="40sp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
