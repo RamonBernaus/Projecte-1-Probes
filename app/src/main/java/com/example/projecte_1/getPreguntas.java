@@ -12,11 +12,10 @@ import com.android.volley.toolbox.Volley;
 
 import org.json.JSONException;
 
-public class MainActivity extends AppCompatActivity {
+public class getPreguntas extends AppCompatActivity {
 
     private static final String TAG = "getPreguntas";
-    private static final String URL = "http://192.168.205.68:3000/api/preguntas";
-
+    private static final String URL = "http://localhost:3000/api/preguntas";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -50,3 +49,4 @@ public class MainActivity extends AppCompatActivity {
         queue.add(jsonObjectRequest);
     }
 }
+
